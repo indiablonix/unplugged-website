@@ -97,21 +97,233 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /*--------------- Base  Header - Footer Styles ---------------*/
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header {
+
+}
+
+header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.header-divider {
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+address {
+
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .copyright {
+
+}
+
+/* Mobile Homepage */
+
+/* Hero Area */
+
+.hero-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.hero-area .content-wrapper {
+
+}
+
+/* Aside */
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+aside .content-wrapper {
+
+}
+
+aside .form-description {
+
+}
+
+aside .signup-form {
+
+}
+
+input {
+
+}
+
+/* Features */
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.features .features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+.features .fontawesome-icon {
+
+}
+
+.features .features-item-description {
+
+}
+
+/* Reviews */
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.reviews .content-wrapper {
+
+}
+
+.reviews .review-image {
+
+}
 
 
 
+/*============================================================================
+About
+=============================================================================*/
 
+/* Mission */
 
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
+.mission .content-wrapper {
 
+}
 
+.mission .mission-content {
 
+}
 
+/* Map */
 
+.map {
 
+}
 
+.map figure {
 
+}
 
+/* Contact */
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.contact-section .content-wrapper {
+
+}
+
+.contact-section .general-info {
+
+}
+
+.contact-section .facilitator {
+
+}
+
+/*============================================================================
+FAQ
+==============================================================================*/
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.faq .faq-content {
+
+}
+
+.faq span {
+
+}
 
 /* ==========================================================================
    Helper classes

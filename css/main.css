@@ -97,6 +97,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   .content-wrapper {
+       width: 90%;
+       margin: 50px 0;
+   }
+
    /*--------------- Base  Header - Footer Styles ---------------*/
 
 header,
@@ -105,10 +110,6 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-}
-
-.content-wrapper {
-    width: 90%;
 }
 
 header {
@@ -125,11 +126,12 @@ header .content-wrapper {
 
 .header-divider {
     width: 100%;
+    margin: 10px 0 20px 0;
 }
 
 header nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
     width: 60%;
@@ -138,13 +140,13 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 45%;
+    width: 100%;
 }
 
 footer {
-
+    flex-direction: column;
 }
 
 footer .content-wrapper {
@@ -160,9 +162,18 @@ address {
 
 }
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .contact {
+    margin-bottom: 50px;
+}
+
 footer .social {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -172,8 +183,14 @@ footer .social-icons {
     align-items: center;
 }
 
-footer .copyright {
+footer .social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+footer .copyright {
+    margin: 20px 0;
 }
 
 /* Mobile Homepage */
@@ -188,9 +205,7 @@ footer .copyright {
 }
 
 .hero-area .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 /* Aside */
@@ -236,7 +251,7 @@ input {
 }
 
 .features h2 {
-
+    margin-bottom: 60px;
 }
 
 .features .features-items {
@@ -249,6 +264,7 @@ input {
 
 .features article {
   width: 55%;
+  margin: 50px 0;
 }
 
 .features p {
@@ -276,8 +292,13 @@ input {
 
 }
 
+.reviews h2 {
+
+}
+
 .reviews h3 {
-  width: 80%;
+  width: 55%;
+  margin: 20px 0;
 }
 
 .reviews .review-image {

@@ -557,7 +557,7 @@ FAQ
   .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 
   }
 
@@ -613,7 +613,61 @@ FAQ
 
 
 @media only screen and (min-width: 1200px) {
-  /* Desktop styles here */
+
+/* General Styles */
+
+.content-wrapper {
+  max-width: 960px;
+}
+
+.hero-area .content-wrapper h1 {
+  width: 60%;
+}
+
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .signup-form {
+  width: 30%;
+}
+
+.features h2 {
+  width: 75%;
+}
+
+.features article {
+  flex-basis: 33.3%;
+}
+
+.reviews article div {
+  width: 40%;
+}
+
+/*===========================================================================
+About
+============================================================================*/
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 100%;
+}
+
+.contact-section .content-wrapper h2 {
+  margin-bottom: 40px;
+}
+
+/*============================================================================
+FAQ
+=============================================================================*/
+.faq h2 {
+  width: 100%;
+}
+
+.faq-content {
+  flex-basis: 40%;
+}
+
 }
 
 /* ==========================================================================

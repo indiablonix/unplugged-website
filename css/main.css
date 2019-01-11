@@ -104,6 +104,7 @@ html {
 }
 
 body {
+  color: #e2e3ed;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
@@ -126,8 +127,9 @@ a {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.8em;
+  font-size: 1.875em;
   text-align: left;
+  font-weight: 500;
 }
 
 h3,
@@ -135,6 +137,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
   font-size: 1.125em;
+  font-weight: 500;
 }
 
 p {
@@ -164,6 +167,7 @@ address {
 
 header,
 footer {
+    background-color: #202322;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,6 +176,7 @@ footer {
 
 header {
     padding: 15px 0;
+    text-transform: uppercase;
 }
 
 header .content-wrapper {
@@ -201,6 +206,7 @@ header nav ul {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    padding: 0;
 }
 
 footer {
@@ -256,17 +262,22 @@ footer .copyright {
 .hero-area {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-flow: row wrap;
+    height: 500px;
 }
 
-.hero-area .content-wrapper {
+.hero-area h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+
 
 }
 
 /* Aside */
 
 aside {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,12 +300,29 @@ aside h3 {
   margin: 38px 0 8px 0;
 }
 
-aside .signup-form {
-
+aside .form {
+  margin-top: 30px;
 }
 
-input {
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -341,6 +369,7 @@ input {
 /* Reviews */
 
 .reviews {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -367,6 +396,7 @@ About
 /* Mission */
 
 .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -386,10 +416,15 @@ About
 /* Contact */
 
 .contact-section {
+    background-color: #2a423a;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+}
+
+.contact-section .contact-content {
+  text-align: left;
 }
 
 
@@ -398,6 +433,7 @@ FAQ
 ==============================================================================*/
 
 .faq {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -411,13 +447,11 @@ FAQ
     flex-flow: row wrap;
 }
 
-.faq .faq-content {
+/* .faq h2,
+.faq h4 {
+  font-weight: 500;
+} */
 
-}
-
-.faq span {
-
-}
 
 /* ==========================================================================
    Helper classes
@@ -540,6 +574,10 @@ FAQ
   .hero-area .content-wrapper {
     margin: 50px 0;
   }
+
+  .hero-area h1 {
+    width: 60%;
+  }
   /* Aside Area */
 
   aside .content-wrapper {
@@ -656,6 +694,10 @@ FAQ
   max-width: 960px;
 }
 
+header nav ul {
+  padding-left: 40px;
+}
+
 .hero-area .content-wrapper h1 {
   width: 60%;
 }
@@ -697,7 +739,7 @@ About
 }
 
 .contact-content {
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 /*============================================================================

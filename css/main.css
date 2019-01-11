@@ -97,10 +97,68 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   .content-wrapper {
-       width: 90%;
-       margin: 50px 0;
-   }
+/* General Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+ color: #e2e3ed;
+ text-decoration: none;
+}
+
+/* h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+} */
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8em;
+  text-align: left;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+  text-align: center;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
 
    /*--------------- Base  Header - Footer Styles ---------------*/
 
@@ -158,10 +216,6 @@ footer p {
   margin: 0;
 }
 
-address {
-
-}
-
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
@@ -173,9 +227,10 @@ footer .contact {
 
 footer .social {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
+
 
 footer .social-icons {
     display: flex;
@@ -191,6 +246,7 @@ footer .social-icons p {
 
 footer .copyright {
     margin: 20px 0;
+    text-align: center;
 }
 
 /* Mobile Homepage */
@@ -230,7 +286,7 @@ aside p {
 }
 
 aside h3 {
-  margin: 38px 0 18px 0;
+  margin: 38px 0 8px 0;
 }
 
 aside .signup-form {
@@ -252,6 +308,7 @@ input {
 
 .features h2 {
     margin-bottom: 60px;
+    width: 88%;
 }
 
 .features .features-items {
@@ -263,12 +320,14 @@ input {
 }
 
 .features article {
-  width: 55%;
+  width: 60%;
   margin: 50px 0;
 }
 
 .features p {
   margin: 0;
+  text-align: center;
+  width:
 }
 
 .features .fontawesome-icon {
@@ -301,12 +360,6 @@ input {
   margin: 20px 0;
 }
 
-.reviews .review-image {
-
-}
-
-
-
 /*============================================================================
 About
 =============================================================================*/
@@ -318,14 +371,6 @@ About
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-}
-
-.mission .content-wrapper {
-
-}
-
-.mission .mission-content {
-
 }
 
 /* Map */
@@ -342,22 +387,11 @@ About
 
 .contact-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
 }
 
-.contact-section .content-wrapper {
-
-}
-
-.contact-section .general-info {
-
-}
-
-.contact-section .facilitator {
-
-}
 
 /*============================================================================
 FAQ
@@ -503,7 +537,9 @@ FAQ
   }
 
   /* Hero Area */
-
+  .hero-area .content-wrapper {
+    margin: 50px 0;
+  }
   /* Aside Area */
 
   aside .content-wrapper {
@@ -532,7 +568,7 @@ FAQ
   .features .features-items {}
 
   .features .features-item-description {
-    width: 50%;
+    width: 55%;
     text-align: center;
   }
 
@@ -630,7 +666,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .signup-form {
-  width: 30%;
+  width: 25%;
 }
 
 .features h2 {
@@ -645,6 +681,9 @@ aside .content-wrapper .signup-form {
   width: 40%;
 }
 
+footer .footer-content {
+  justify-content: space-around;
+}
 /*===========================================================================
 About
 ============================================================================*/
@@ -655,6 +694,10 @@ About
 
 .contact-section .content-wrapper h2 {
   margin-bottom: 40px;
+}
+
+.contact-content {
+  justify-content: space-around;
 }
 
 /*============================================================================

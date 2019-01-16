@@ -146,11 +146,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -177,6 +177,14 @@ footer {
 header {
     padding: 15px 0;
     text-transform: uppercase;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header .content-wrapper {
@@ -265,6 +273,12 @@ footer .copyright {
     align-items: flex-start;
     flex-flow: row wrap;
     height: 500px;
+    background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+    background-size: cover;
+}
+
+.hero-area .content-wrapper {
+  margin-top: 20px;
 }
 
 .hero-area h1 {
@@ -297,10 +311,10 @@ aside p {
 }
 
 aside h3 {
-  margin: 38px 0 8px 0;
+ margin-bottom: 8px;
 }
 
-aside .form {
+aside .signup-form {
   margin-top: 30px;
 }
 
@@ -332,7 +346,9 @@ input[type=button] {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-}
+    background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat #333;
+    background-size: cover;
+   }
 
 .features h2 {
     margin-bottom: 60px;
@@ -376,12 +392,29 @@ input[type=button] {
     flex-flow: row wrap;
 }
 
-.reviews .content-wrapper {
-
+.reviews .content-wrapper article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.reviews h2 {
+.reviews .content-wrapper figure {
+  width: 88%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+.reviews .content-wrapper div {
+  width: 88%;
+}
+
+.reviews .content-wrapper h2 {
+  text-align: left;
+  width: 90 %;
+  margin-left: 20px;
 }
 
 .reviews h3 {
@@ -553,6 +586,10 @@ FAQ
     justify-content: space-around;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
@@ -612,13 +649,27 @@ FAQ
 
   /* Reviews */
 
-  .reviews article {
+  .reviews .content-wrapper article {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
-  .reviews article div {
+.reviews .content-wrapper figure {
+    width: 45%;
+  }
+
+  .reviews .content-wrapper h2 {
+    width: 66%;
+
+  }
+
+  .reviews .content-wrapper div {
     width: 50%;
+    margin-left: 10px;
+  }
+
+  .reviews .content-wrapper div h3 {
+    margin: 0;
   }
 
   /* Footer */
@@ -694,21 +745,31 @@ FAQ
   max-width: 960px;
 }
 
+header figure {
+  width: 24%;
+}
+
 header nav ul {
   padding-left: 40px;
 }
 
 .hero-area .content-wrapper h1 {
   width: 60%;
+  font-size: 2.5em;
+  margin: 0;
 }
 
 aside .content-wrapper {
   justify-content: space-around;
 }
 
+aside .content-wrapper h3 {
+    font-size: 1.4em;
+}
+
 aside .content-wrapper .form-description,
 aside .content-wrapper .signup-form {
-  width: 25%;
+  width: 27%;
 }
 
 .features h2 {
@@ -719,8 +780,24 @@ aside .content-wrapper .signup-form {
   flex-basis: 33.3%;
 }
 
-.reviews article div {
+.reviews .content-wrapper h2 {
+  font-size: 2em;
+  margin-bottom: 100px;
+  width: 70%;
+}
+.reviews .content-wrapper figure {
+  width: 45%;
+}
+
+.reviews .content-wrapper div {
   width: 40%;
+  margin-left: 35px;
+  margin-bottom: 124px;
+}
+
+.reviews .content-wrapper h3 {
+  font-size: 1.45em;
+  width: 75%;
 }
 
 footer .footer-content {

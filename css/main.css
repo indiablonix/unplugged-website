@@ -708,14 +708,14 @@ FAQ
   About
   ===========================================================================*/
 
-  .mission-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .mission-content p {
-    width: 40%;
+.mission-content p {
+  width: 40%;
 
 }
 
@@ -727,6 +727,10 @@ FAQ
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.map figure {
+  padding-bottom: 40%;
 }
 
 /*============================================================================

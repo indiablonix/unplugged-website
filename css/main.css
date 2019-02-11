@@ -245,7 +245,9 @@ footer .social {
     align-items: center;
 }
 
-
+footer i {
+  font-size: 2em;
+}
 footer .social-icons {
     display: flex;
     justify-content: space-around;
@@ -364,23 +366,21 @@ input[type=button] {
 }
 
 .features article {
-  width: 60%;
-  margin: 50px 0;
+  width: 55%;
+  margin: 30px 0;
 }
 
 .features p {
   margin: 0;
   text-align: center;
-  width:
 }
 
-.features .fontawesome-icon {
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 
 }
 
-.features .features-item-description {
-
-}
 
 /* Reviews */
 
@@ -645,11 +645,11 @@ FAQ
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     flex-basis: 50%;
+
   }
 
-  .features .features-items {}
 
   .features .features-item-description {
     width: 55%;

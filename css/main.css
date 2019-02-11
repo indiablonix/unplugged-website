@@ -243,15 +243,19 @@ footer .social {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 }
+
 
 footer i {
   font-size: 2em;
 }
+
 footer .social-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 footer .social-icons p {

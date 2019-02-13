@@ -99,6 +99,7 @@ textarea {
 
 /* General Styles */
 
+
 html {
   font-size: 16px;
 }
@@ -136,7 +137,7 @@ h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
-  font-size: 1.125em;
+  font-size: 1.3em;
   font-weight: 500;
 }
 
@@ -217,15 +218,6 @@ header nav ul {
     padding: 0;
 }
 
-footer {
-    flex-direction: column;
-}
-
-footer .content-wrapper {
-    width: 55%;
-    margin: 50px 0;
-}
-
 footer p {
   margin: 0;
 }
@@ -245,7 +237,6 @@ footer .social {
     align-items: center;
     flex-flow: row wrap;
 }
-
 
 footer i {
   font-size: 2em;
@@ -417,8 +408,8 @@ input[type=button] {
 
 .reviews .content-wrapper h2 {
   text-align: left;
-  width: 90 %;
-  margin-left: 20px;
+  width: 90%;
+  /* margin-left: 38px; */
 }
 
 .reviews h3 {
@@ -593,6 +584,14 @@ FAQ
     margin: 100px 0;
   }
 
+ h3 {
+   font-size: 1.5em;
+ }
+
+ h2 {
+   font-size: 2.3em;
+ }
+
   /* Header */
 
   header {
@@ -626,7 +625,9 @@ FAQ
   }
 
   .hero-area h1 {
-    width: 60%;
+    font-size: 2.8em;
+    line-height: 1.1em;
+    width: 80%;
   }
   /* Aside Area */
 
@@ -637,9 +638,13 @@ FAQ
     flex-flow: row wrap;
   }
 
+  aside h3 {
+    font-size: 1.5em;
+  }
+
   aside .content-wrapper .form-description,
   aside .content-wrapper .signup-form {
-    width: 35%;
+    width: 40%;
     margin: 0;
   }
 
@@ -651,7 +656,11 @@ FAQ
     align-items: center;
     flex-flow: column wrap;
     flex-basis: 50%;
+  }
 
+  .features h2 {
+    font-size: 2.3em;
+    width: 100%;
   }
 
 
@@ -672,17 +681,19 @@ FAQ
   }
 
   .reviews .content-wrapper h2 {
-    width: 66%;
+    font-size: 2.3em;
+    width: 80%;
 
   }
 
   .reviews .content-wrapper div {
     width: 50%;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .reviews .content-wrapper div h3 {
     margin: 0;
+    width: 80%;
   }
 
   /* Footer */
@@ -694,7 +705,7 @@ FAQ
 
   .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
 
   }
@@ -712,6 +723,8 @@ FAQ
   About
   ===========================================================================*/
 
+
+
 .mission-content {
   display: flex;
   justify-content: space-between;
@@ -719,7 +732,7 @@ FAQ
 }
 
 .mission-content p {
-  width: 40%;
+  width: 45%;
 
 }
 
@@ -740,23 +753,32 @@ FAQ
 /*============================================================================
 FAQ
 =============================================================================*/
-
+.faq h4 {
+  font-size: .8em;
+}
 .faq .content-wrapper {
   justify-content: space-between;
 }
 
 .faq-content {
-  flex-basis: 40%;
+  flex-basis: 45%;
 }
 
 .faq h2 {
+  font-size: 2.3em;
   width: 100%;
+  margin: 0;
 }
 
+.faq p {
+  font-size: .7em;
+}
 
 @media only screen and (min-width: 1200px) {
 
 /* General Styles */
+
+
 
 .content-wrapper {
   max-width: 960px;

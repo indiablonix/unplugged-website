@@ -258,6 +258,7 @@ footer .social-icons p {
 footer .copyright {
     margin: 20px 0;
     text-align: center;
+    width: 65%;
 }
 
 /* Mobile Homepage */

@@ -218,6 +218,11 @@ header nav ul {
     padding: 0;
 }
 
+footer {
+  text-align: center;
+  flex-direction: column;
+}
+
 footer p {
   margin: 0;
 }
@@ -483,13 +488,16 @@ FAQ
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 50px 0 0 0;
 }
 
-/* .faq h2,
-.faq h4 {
-  font-weight: 500;
-} */
+.faq-content {
+  margin-bottom: 40px;
+}
 
+.faq h2 {
+  margin-bottom: 40px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -704,10 +712,11 @@ FAQ
     margin: 100px 0;
   }
 
-  .footer-content {
+  footer .footer-content {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 
   }
 
@@ -755,24 +764,24 @@ FAQ
 FAQ
 =============================================================================*/
 .faq h4 {
-  font-size: .8em;
+  font-size: 1em;
+  line-height: 1.1em;
 }
 .faq .content-wrapper {
   justify-content: space-between;
 }
 
 .faq-content {
-  flex-basis: 45%;
+  flex-basis: 40%;
 }
 
 .faq h2 {
   font-size: 2.3em;
   width: 100%;
-  margin: 0;
 }
 
 .faq p {
-  font-size: .7em;
+  font-size: .8em;
 }
 
 @media only screen and (min-width: 1200px) {
